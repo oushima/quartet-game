@@ -1,1 +1,3 @@
+Play it at: https://oushima.github.io/quartet-game/templates/index.html
+
 Er zijn meerdere kwartetspellen om uit te kiezen. Elk kwartetspel heeft zijn eigen hoeveelheid. Als je één kwartetset voltooit, verdien je twintig punten. Als je verkeerd gokt, verlies je één punt. Het totaal aantal punten kan nooit onder de nul zijn. Er is geen bepaalde duratie om je kwartetsessie te voltooien als je eenmaal bent begonnen. Zodra je een spel start zie je in de onderste navigatiebalk informatie zoals je voortgang, punten en meer. Raadpleeg het gedeelte over handleiding op deze pagina voor meer informatie. Kijk je liever een introductie video? Klik dan hier.
