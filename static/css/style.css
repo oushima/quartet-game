@@ -1,0 +1,152 @@
+:root {
+	--grey_1: 236, 236, 236;
+	--grey_2: 225, 225, 225;
+	--grey_3: 242, 242, 242;
+	--crimson_1: 235, 31, 72;
+	--crimson_2: 252, 252, 252;
+	--blue_1: 0, 66.7, 100;
+	--blue_2: 77, 196, 255;
+}
+
+html, body{
+	margin: 0px;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.header-style-1 {
+	padding: 25px 25vw;
+	color: rgba(var(--crimson_1), 1.0);
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+.btn-style-1 {
+	background: none;
+	border: solid 2px rgba(var(--crimson_1), 0.8);
+	border-radius: 10px;
+	padding: 0px;
+	margin: 25px;
+}
+
+.img-style-1 {
+	height: 25vh;
+	padding: 25px;
+}
+
+.margin-top-1 {
+	margin: 25px;
+}
+
+.btn-container-0 {
+	text-align: center;
+	margin: 25px;
+}
+
+.clickable-item {
+	padding: 0px;
+	margin: 10px;
+}
+
+.img-clickable-item {
+	width: 10vh;
+	height: auto;
+	margin: 10px;
+	padding: 0px;
+}
+
+.game-info-bar {
+	bottom: 0;
+}
+
+.ol-style-1 {
+	list-style-type: none;
+	color: rgba(var(--grey_3), 1.0);
+	font-weight: bolder;
+	padding: 0px;
+}
+
+.nav-bar ol li, .game-info-bar ol li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.nav-bar, .game-info-bar {
+	background: rgba(var(--crimson_1), 1.0);
+	margin: 0px;
+	position: fixed;
+    width: 100%;
+	text-align: center;
+}
+
+.nav-bar {
+	top: 0;
+}
+
+.nav-bar ol li a {
+	color: rgba(var(--grey_3), 1.0);
+	text-decoration: none;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.hyperlink-style-1 {
+	text-decoration: underline;
+	font-weight: bolder;
+	color: rgba(var(--blue_2), 1.0);
+}
+
+.hyperlink-style-1:hover {
+	color: rgba(var(--crimson_1), 1.0);
+}
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 75%;
+	margin: 50px auto;
+}
+
+td, th {
+border: 1px solid rgba(var(--grey_3), 1.0);;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(var(--grey_3), 1.0);
+}
+
+caption {
+	color: rgba(var(--crimson_1), 1.0);
+	font-weight: bolder;
+	font-size: x-large;
+	margin: 25px;
+}
+
+th {
+color: rgba(var(--crimson_1), 1.0);
+}
+
+.video-container {
+	margin: 25vh;
+}
+
+.video {
+	width: 500px;
+	height: auto;
+	margin: 25px auto 25px auto;
+	display: block;
+  }
+
+  p {
+	line-height: 25px;
+  }

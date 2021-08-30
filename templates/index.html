@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>🃏 Kwartet 🃏</title>
+
+	<!--CSS font.-->
+	<link rel="stylesheet" href="../static/css/style.css"></link>
+
+	<!--Google CSS font.-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+	<!--Javascript.-->
+	<script src="../static/js/index.js" defer></script> 
+</head>
+<body>
+	<template>
+		<div id="nav-bar" class="nav-bar">
+			<ol class="ol-style-1">
+				<li id="back-btn"><a href="">RETURN</a></li>
+				<li id="restart-btn" class="cursor-pointer">RESTART</li>
+				<li id="auto-player-btn" class="cursor-pointer">SIMULATE</li>
+			</ol>
+		</div>
+	</template>
+	<div id="header-style-1" class="header-style-1">
+		<h1 class="center">We hebben alle kwartetten waar je dol op bent! Kom binnen en snak naar beneden voor de lange termijn.</h1>
+		<p class="center margin-top-1">Er zijn meerdere kwartetspellen om uit te kiezen. Elk kwartetspel heeft zijn eigen hoeveelheid. Als je één kwartetset voltooit, verdien je twintig punten. Als je verkeerd gokt, verlies je één punt. Het totaal aantal punten kan nooit onder de nul zijn. Er is geen bepaalde duratie om je kwartetsessie te voltooien als je eenmaal bent begonnen. Zodra je een spel start zie je in de onderste navigatiebalk informatie zoals je voortgang, punten en meer. Raadpleeg het gedeelte over <span class="cursor-pointer hyperlink-style-1" id="testscripts-btn">handleiding</span> op deze pagina voor meer informatie. Kijk je liever een introductie video? Klik dan <span class="cursor-pointer hyperlink-style-1" id="video-intro-btn">hier</span>.</p>
+	</div>
+	<div id="btn-container-0" class="btn-container-0"></div>
+	<template>
+		<div id="game-info-bar" class="game-info-bar">
+			<ol class="ol-style-1">
+				<li id="playing"></li>
+				<li id="score"></li>
+				<li id="completed"></li>
+				<li id="progress"></li>
+			</ol>
+		</div>
+	</template>
+	<template>
+		<table>
+			<caption>TESTSCRIPTS</caption>
+			<tr>
+			  <th>BEGINSCHERM</th>
+			  <td>Klik een van de beschikbare knoppen aan om een spelsessie van start te gaan.</td>
+			</tr>
+			<tr>
+			  <th>RETURN</th>
+			  <td>Keer terug naar het beginscherm om bijvoorbeeld een ander spel te selecteren.</td>
+			</tr>
+			<tr>
+			  <th>RESTART</th>
+			  <td>Begin het huidige spel opnieuw (zonder de volgorde te veranderen).</td>
+			</tr>
+			<tr>
+			<tr>
+				<th>SIMULATE</th>
+				<td>Laat de computer het spel voor je spelen.</td>
+			</tr>
+			<tr>
+				<th>PLAYING</th>
+				<td>Duidt aan welk spel je momenteel aan het spelen bent.</td>
+			  </tr>
+			  <tr>
+				<th>SCORE</th>
+				<td>Toont de totale score van jouw speelsessie.</td>
+			  </tr>
+			  <tr>
+				<th>COMPLETED</th>
+				<td>Toont hoeveel kaartsets je hebt voltooid uit het aantal om het spel te voltooien.</td>
+			  </tr>
+			  <tr>
+				<th>PROGRESS</th>
+				<td>Toont in percentages op hoe ver je bent met het spel.</td>
+			  </tr>
+		  </table>
+		  <a href="" class="center" style="display: block;">Return</a>
+	</template>
+	<template>
+		<div id="video-container" class="video-container">
+		<h1 class="center">Introductie video (NL)</h1>
+		<video class="video" controls>
+			<source src="../static/media/introduction_nl.mp4" type="video/mp4">
+			This video cannot be played. Your browser unfortunately does not support this video format.
+		  </video>
+		  <a href="" class="center" style="display: block;">Return</a>
+		</div>
+	</template>
+</body>
+</html>
